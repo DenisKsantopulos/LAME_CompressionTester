@@ -1,0 +1,7 @@
+D:\C#\LAME_test\LAME_test\obj\Debug\LAME_test.csproj.AssemblyReference.cache
+D:\C#\LAME_test\LAME_test\obj\Debug\LAME_test.csproj.CoreCompileInputs.cache
+D:\C#\LAME_test\LAME_test\bin\Debug\LAME_test.exe.config
+D:\C#\LAME_test\LAME_test\bin\Debug\LAME_test.exe
+D:\C#\LAME_test\LAME_test\bin\Debug\LAME_test.pdb
+D:\C#\LAME_test\LAME_test\obj\Debug\LAME_test.exe
+D:\C#\LAME_test\LAME_test\obj\Debug\LAME_test.pdb
