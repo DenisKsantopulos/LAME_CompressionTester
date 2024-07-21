@@ -16,9 +16,18 @@ namespace LAME_test
 
             string[] lameVersions = new string[] { "3.100", "3.99" };
 
-            string[] wavFiles = new string[] { "testcase.wav", "testcase2.wav" };
+            string[] wavFiles = new string[] { "testcase.wav", "sample.wav" };
 
-            string[] encodingSettings = new string[] { "-b 128", "-b 192", "-b 256", "-b 320", "-V 2" };
+            //string[] encodingSettings = new string[] { "-b 128", "-b 192", "-b 256", "-b 320", "-V 2" };
+
+            string[] encodingSettings = new string[]
+                {
+                    "-b 96",  // Low bitrate
+                    "-b 192", // Medium bitrate
+                    "-b 320", // High bitrate
+                    "-V 0 --vbr-new", // Variable bitrate with highest quality
+                    "-V 2 --abr 128" // Average bitrate with medium quality
+                };
 
             using (StreamWriter writer = File.CreateText(reportFile))
             {
